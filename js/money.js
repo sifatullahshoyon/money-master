@@ -59,7 +59,7 @@ function getElementValueById(){
 
 document.getElementById('save-btn').addEventListener("click" , function(){
     const totalBalance = document.getElementById('total-balance').innerText;
-    const saveInputField = document.getElementById('save-input-field').value;
+    // const saveInputField = document.getElementById('save-input-field').value;
     const priveousTotalBalance = parseFloat(totalBalance) * 0.2;
     const newSaveInputField = totalBalance - priveousTotalBalance;
     const savingAmount = document.getElementById('saving-amount');
