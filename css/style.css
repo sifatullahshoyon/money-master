@@ -1,0 +1,13 @@
+input:focus{
+    outline: none;
+    border: none;
+    border-color: 0;
+}
+
+input[type = 'text']{
+    background-color: #DCDCDC;
+}
+
+.save{
+    width: 132px;
+}
