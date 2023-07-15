@@ -28,8 +28,6 @@ function getElementValueById(){
     
     if(income <= 0 || food <= 0 || rent <= 0 || clothes <= 0 || typeof input !== 'number'){
         // console.log(alert('please enter a valid number'));
-        sum = '00';
-        totalExpenses.innerText = '00';
         return alert('please enter a valid number');
     }
     // else if(income > totalExpenses){
